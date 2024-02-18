@@ -5,6 +5,7 @@ import Contact from "../src/components/Contact";
 import Portfolio from "../src/components/Portfolio";
 import Resume from "../src/components/Resume";
 import Footer from "../src/components/Footer";
+import { Helmet } from "react-helmet";
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
@@ -32,7 +33,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Lindsey Martin's Portfolio | {currentTab} </title>
+        <title>Ben Langs Portfolio | {currentTab} </title>
       </Helmet>
       ;
       <Header

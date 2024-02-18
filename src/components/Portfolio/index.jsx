@@ -18,7 +18,7 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://github.com/BennyBlanco88/savory-secrets/">
+              <a href="https://bennyblanco88.github.io/savory-secrets/">
                 {" "}
                 <img
                   src={savorySecretsImage}
