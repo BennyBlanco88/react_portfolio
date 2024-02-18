@@ -7,9 +7,9 @@
 
 :root {
   /*main colors */
-  --primary-color: #0E5259;
-  --secondary-color: #75BFB2;
-  --tertiary-color: #D5F2EA;
+  --primary-color: #292a99;
+  --secondary-color: #7186a1;
+  --tertiary-color: #c6e9e0;
 }
 
 #root {
@@ -21,8 +21,8 @@
 }
 
 body {
-  /* more on this crazy alphanumerical value in a minute! */
-  color: #D5F2EA;
+  
+  color: #7186a1;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   min-height: 100vh;
@@ -44,8 +44,8 @@ code {
 
 /* start apply styles to <header> */
 header {
-  padding: 20px 35px;
-  background-color: #D5F2EA;
+  padding: 10px 35px;
+  background-color: #7186a1;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -56,7 +56,7 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-position: 80%;
+  background-position: 100%;
   z-index: 9999;
 
 }
@@ -65,7 +65,7 @@ header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 36px;
-  color: #0E5259;
+  color: #75BFB2;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -73,7 +73,7 @@ header h1 {
 
 header a {
   text-decoration: none;
-  color: #0E5259;
+  color: #75BFB2;
 }
 
 header nav {
@@ -106,8 +106,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background: #0E5259;
-  color: #D5F2EA;
+  background: #7186a1;
+  color: #c6e9e0;
   border-radius: 15px;
   text-shadow: none;
   /*    transition: .5s ease-in;*/
@@ -134,8 +134,8 @@ header nav ul li a:hover {
 .hero-cta {
   width: 35%;
   text-align: center;
-  margin: 3.5%;
-  color: #fff;
+  margin: 16%;
+  color: #7186a1;
   font-size: 18px;
   line-height: 1.2;
 }
@@ -143,13 +143,13 @@ header nav ul li a:hover {
 .hero-cta h2 {
   font-style: italic;
   font-size: 55px;
-  color: #0E5259;
+  color: #c6e9e0;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-cta p {
   font-size: 25px;
-  color: #328C83;
+  color: #c6e9e0;
 }
 
 /* hero-cta end */
@@ -158,7 +158,7 @@ header nav ul li a:hover {
 /*Intro*/
 .intro p {
   line-height: 1.7;
-  color: #0E5259;
+  color: #292a99;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
@@ -195,17 +195,17 @@ header nav ul li a:hover {
 
 
 /* REACH OUT STYLES START */
-#reach-out {
+/* #reach-out {
   /* margin-top: 5px; */
-  background: #75BFB2;
-}
+  /* background: #D5F2EA;
+/* } */ 
 
 #reach-out h2 {
-  color: #0E5259;
+  color: #75BFB2;
 }
 
 .contact h2 {
-  color: #F2E3D5;
+  color: #292a99;
 }
 
 .contact-info {
@@ -219,17 +219,17 @@ header nav ul li a:hover {
 }
 
 .contact-form button:hover {
-  color: #F2E3D5;
-  background: #39a6b2;
+  color: #292a99;
+  background: #292a99;
 }
 
 .contact-form input,
 .contact-form textarea {
-  border: 1px solid #024e76;
+  border: 1px solid #292a99;
   display: block;
   padding: 7px 15px;
   font-size: 16px;
-  color: #024e76;
+  color: #292a99;
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
@@ -248,8 +248,8 @@ header nav ul li a:hover {
 .contact-form button {
   width: 100%;
   border: none;
-  background: #F2E3D5;
-  color: #024e76;
+  background: #c6e9e0;
+  color: #292a99;
   text-align: center;
   padding: 15px 0;
   font-size: 25px;
@@ -275,7 +275,7 @@ header nav ul li a:hover {
 }
 
 .contact-info h3 {
-  color: #0E5259;
+  color: #292a99;
   font-size: 32px;
 }
 
@@ -297,12 +297,12 @@ header nav ul li a:hover {
 }
 
 .contact-info a {
-  color: #0E5259;
+  color: #292a99;
   display: inline;
 }
 
 .contact-info a:hover {
-  color: #ACF2E5;
+  color: #c6e9e0;
   transition: .5s ease;
 }
 
@@ -311,10 +311,10 @@ header nav ul li a:hover {
 
 /*Start Jobs section*/
 
-.jobs {
-  background: #0E5259;
+/* .jobs {
+  background: #7186a1;
 
-}
+} */
 
 
 .job {
@@ -325,12 +325,12 @@ header nav ul li a:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #D5F2EA;
+  border-bottom: 1px solid #292a99;
 }
 
 
 .job:nth-child(even) {
-  border-bottom: 1px solid #D5F2EA;
+  border-bottom: 1px solid #292a99;
 }
 
 .job:last-child {
@@ -340,7 +340,7 @@ header nav ul li a:hover {
 .job-text h4 {
   font-size: 26px;
   line-height: 1.5;
-  color: #75BFB2;
+  color: #292a99;
 }
 
 
@@ -385,7 +385,7 @@ header nav ul li a:hover {
 
 .job-img img:hover {
   /*    transition: .5s ease-in-out;*/
-  border: 5px solid #ACF2E5;
+  border: 5px solid #D5F2EA;
   transform: scale(1.1);
 }
 
@@ -399,7 +399,7 @@ header nav ul li a:hover {
 }
 
 .job-text p {
-  color: #D5F2EA;
+  color: #292a99;
   font-size: 18px;
 }
 
@@ -413,7 +413,7 @@ header nav ul li a:hover {
 
 .download-intro p {
   line-height: 1.7;
-  color: #0E5259;
+  color: #292a99;
   width: 95%;
   font-size: 30px;
   margin: 0 auto;
@@ -463,6 +463,7 @@ header nav ul li a:hover {
 
 .download-text {
   height: auto;
+  color: #292a99;
   /* margin-left: 20%; */
   text-align: center;
   margin: 0 auto 35px auto;
@@ -473,7 +474,7 @@ header nav ul li a:hover {
   cursor: pointer;
   list-style: none;
   font-size: 40px;
-  color: #0E5259;
+  color: #292a99;
   display: inline-block;
 }
 
@@ -503,13 +504,13 @@ header nav ul li a:hover {
 } */
 
 .column-title {
-  color: #285950;
+  color: #292a99;
   font-size: 25px;
   font-weight: bold;
 }
 
 .column-text {
-  color: #285950;
+  color: #292a99;
   font-size: 20px;
   padding: 5px;
 
@@ -530,7 +531,7 @@ header nav ul li a:hover {
 
 /* start styles to <footer> */
 footer {
-  background: #D5F2EA;
+  background: #7186a1;
   font-weight: bold;
   width: 100%;
   height: 100px;
@@ -545,13 +546,13 @@ footer {
 
 footer h2 {
 
-  color: #75BFB2;
+  color: #c6e9e0;
   font-size: 15px;
   margin: 0;
 }
 
 footer p {
-  color: #75BFB2;
+  color: #c6e9e0;
   font-size: 15px;
   margin: 0;
   text-align: center;
@@ -577,12 +578,12 @@ footer a:hover {
   cursor: pointer;
   list-style: none;
   font-size: 40px;
-  color: #0E5259;
+  color: black;
   display: inline-block;
 }
 
 .logo:hover {
-  color: #328C83;
+  color: #0E5259;
   opacity: 0.5;
   transition: .5s ease;
 }

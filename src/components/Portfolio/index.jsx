@@ -162,7 +162,7 @@ function Portfolio() {
               </a>
             </div>
             <div className="job-text">
-              <h4>firstPortfolio</h4>
+              <h4>First Portfolio</h4>
               <p>
               My first project in bootcamp, and one of my favorites, involved crafting my initial portfolio. This portfolio serves as a foundational tool for securing future employment opportunities. It features sections dedicated to showcasing my background, experience, work samples, and a contact form for easy communication.{" "}
               </p>

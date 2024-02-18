@@ -28,12 +28,8 @@ function Header(props) {
             alt="cover"
           /> */}
 
-          <h2>Welcome</h2>
-          <p>
-            Welcome to Ben Langs portfolio page built with React. Here,
-            you can find a small sample of the projects he has worked on over
-            the course of the program.
-          </p>
+          
+          
         </div>
       </section>
     </div>

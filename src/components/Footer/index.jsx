@@ -14,7 +14,7 @@ function Footer() {
               <VscGithubAlt />
             </li>
           </a>
-          <a href="www.linkedin.com/in/benjamin-f-langs-960215268/">
+          <a href="https://www.linkedin.com/in/benjamin-f-langs-960215268/">
             <li className="logo">
               <AiOutlineLinkedin />
             </li>
