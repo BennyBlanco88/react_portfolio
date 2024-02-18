@@ -116,7 +116,7 @@ header nav ul li a:hover {
 
 /* Hero Style Start */
 .hero {
-  background-image: url("../src/assets/cover/Screenshot\ \(13\).png");
+  background-image: url("../src/assets/cover/Screenshot13.png");
   background-size: cover;
   background-position: center;
   display: flex;
